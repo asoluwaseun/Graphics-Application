@@ -1,0 +1,24 @@
+.selectors{
+    padding-top: 20%;
+    font-size: 300%;
+    text-align: center;
+}
+
+.selectors a , .selectors a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.selectors a .active{
+    color: #B7B7B7;
+    background-color: #303030;
+    padding: 10%;
+}
+
+.selectors span:hover{
+    background-color: #ffb83d;
+    padding: 10%;
+    text-decoration: none;
+    color: #BBBBBB;
+    border-radius: 5px;
+}

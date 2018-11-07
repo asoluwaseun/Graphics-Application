@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/graphics.css" rel="stylesheet">
+    <link href="css/css/all.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <script src="js/jquery%203.3.1.js"></script>
+    <script src="js/graphics.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row" >
+        <div class="col-12" style="background:linear-gradient(90deg,#0c1223,#00acee,maroon,purple);height: 80px">
+            <nav style="padding-top:20px">
+                <a class="navbar-brand" href="#"><img src="images/logo%20agape.png" width="100px"></a>
+
+            </nav>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-1" style="background:linear-gradient(180deg,#0c1223,#00acee);height: 620px">
+            <div class="row">
+                <div class="col-12 selectors" >
+                    <span><a href=""><i class="fa fa-image"></i> </a></span>
+                </div>
+
+                <div class="col-12 selectors">
+                    <span><a href="javascript:void(0)"><i class="fa fa-circle" onclick="draw('circle')"></i> </a></span>
+                </div>
+
+                <div class="col-12 selectors" >
+                    <span><a href="javascript:void(0)"><i class="fa fa-square" onclick="draw('square')"></i> </a></span>
+                </div>
+
+                <div class="col-12 selectors" >
+                    <span onclick="draw('line')"><a href="javascript:void(0)">|</a></span>
+                </div>
+
+                <div class="col-12 selectors" >
+                   <span><a href="javascript:void(0)"><i class="fa fa-paint-brush"></i> </a></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-10" style="background-color: rgba(9,2,11,0.89); height: 620px">
+            <canvas class=" mt-2" width="1090" height="600" style="background-color: #fff;border: 1px solid;" id="mainCanvas"></canvas>
+        </div>
+        <div class="col-1" style="background:linear-gradient(180deg,maroon,purple);height: 620px">
+            <div class="row">
+                <div class="col-12 selectors" >
+                    <span><a href=""><i class="fa fa-image"></i> </a></span>
+                </div>
+
+                <div class="col-12 selectors">
+                    <span><a href="javascript:void(0)"><i class="fa fa-circle" onclick="draw('circle')"></i> </a></span>
+                </div>
+
+                <div class="col-12 selectors" >
+                    <span><a href="javascript:void(0)"><i class="fa fa-square" onclick="draw('square')"></i> </a></span>
+                </div>
+
+                <div class="col-12 selectors" >
+                    <span onclick="draw('line')"><a href="javascript:void(0)">|</a></span>
+                </div>
+
+                <div class="col-12 selectors" >
+                    <span><a href="javascript:void(0)"><i class="fa fa-paint-brush"></i> </a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
